@@ -1,0 +1,57 @@
+/* Start articles */
+.articales{
+ padding-top: var(--main-padding-top);
+ padding-bottom: var(--main-padding-bottom);
+ position: relative;
+
+}
+.articales .container{
+display: grid;
+grid-template-columns:repeat(auto-fill , minmax(250px , 1fr));
+gap: 40px;
+}
+.articales .box{
+box-shadow: 0 2px 15px rgb(0 0 0 / 10%);
+background-color:white;
+border-radius: 6px;
+overflow:hidden;
+transition:transform var(--main-transition) , box-shadow var(--main-transition)
+}
+.articales .box:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 2px 15px rgb(0 0 0 / 20%);
+}
+.articales .box img{
+  width: 100%;
+ max-width:100%;
+}
+.articales .box .content{
+padding:20px;
+}
+.articales .box .content h3{
+margin: 0;
+}
+.articales .box .content p{
+margin: 10px 0 0;
+line-height:1.5;
+color: #777;
+}
+.articales .box .info{
+ padding: 20px ;
+ border-top: 1px solid #e6e6e7;
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.articales .box .info a{
+ color: var(--main-color);
+ font-weight: bold;
+}
+.articales .box .info i{
+color: var(--main-color);
+}
+.articales .box:hover .info i{
+  animation: move-arrow 0.6s linear infinite ;
+} 
+
+/* End articles */
