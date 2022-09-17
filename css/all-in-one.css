@@ -1,7 +1,12 @@
 @import url("global-rules.css");
-@import url("Header.css");
-@import url("landing.css");
-@import url("Articles.css");
-@import url("Gallery.css");
-@import url("features.css");
+@import url("01-Header.css");
+@import url("02-landing.css");
+@import url("03-Articles.css");
+@import url("04-Gallery.css");
+@import url("05-features.css");
+@import url("06-testimonialss.css");
+@import url("07-team-member.css");
+@import url("08-services.css");
+
+
 @import url("Animation.css");
