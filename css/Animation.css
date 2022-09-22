@@ -59,4 +59,13 @@
     height: 200%;
   }
 }
+@keyframes ch-bg {
+  0% , 100%{
+    background-image: url(../img/discount-background1.jpg);
+  }
+  50%{
+    background-image: url(../img/discount-background2.jpg);
+  }
+  
+}
 /* End Animation */
